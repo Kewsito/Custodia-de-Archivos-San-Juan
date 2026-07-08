@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import bgVideo from '../assets/welcome-video.mp4'
 ---
 
 <!doctype html>
@@ -28,7 +29,7 @@ import '../styles/global.css'
 				playsinline
 				aria-hidden="true"
 			>
-				<source src="/videos/welcome-video.mp4" type="video/mp4" />
+				<source src={bgVideo} type="video/mp4" />
 			</video>
 			<div class="absolute inset-0 bg-slate-950/60"></div>
 		</div>
