@@ -1,46 +1,31 @@
-# Astro Starter Kit: Basics
+# Custodia de Archivos San Juan
 
-```sh
-npm create astro@latest -- --template basics
+Este proyecto está relacionado con el caso de estudio del sitio web de Custodia de Archivos San Juan, disponible en http://archivosanjuan.com.ar.
+
+## Descripción
+
+El objetivo de este proyecto es mejorar la presentación y la experiencia de usuario de la web institucional, reproduciendo y adaptando el contenido publicado con un enfoque más moderno, claro y visualmente atractivo.
+
+## Tecnologías empleadas
+
+- Astro
+- Tailwind CSS
+- JavaScript
+- Leaflet para el mapa interactivo
+- Vite
+- Netlify
+
+## Despliegue
+
+El proyecto está actualmente desplegado en:
+
+- https://archivosanjuan.netlify.app/
+
+También está preparado para ser desplegado de forma estática mediante otros servicios como Vercel o GitHub Pages.
+
+## Ejecución local
+
+```bash
+npm install
+npm run dev
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
