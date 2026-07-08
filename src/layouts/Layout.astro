@@ -1,0 +1,41 @@
+---
+import '../styles/global.css'
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="https://unpkg.com" />
+		<meta name="generator" content={Astro.generator} />
+
+		<meta
+			name="description"
+			content="Caso de estudio de mejora para la web de Custodia de Archivos San Juan, con enfoque en claridad, confianza y conversión."
+		/>
+		<title>Caso de estudio | Custodia de Archivos San Juan</title>
+	</head>
+	<body class="m-0 min-h-screen text-slate-900">
+		<div class="fixed inset-0 z-5 overflow-hidden">
+			<video
+				class="h-full w-full object-cover"
+				autoplay
+				loop
+				muted
+				playsinline
+				aria-hidden="true"
+			>
+				<source src="/videos/welcome-video.mp4" type="video/mp4" />
+			</video>
+			<div class="absolute inset-0 bg-slate-950/60"></div>
+		</div>
+
+		<div class="relative z-10">
+			<slot />
+		</div>
+	</body>
+</html>
+
